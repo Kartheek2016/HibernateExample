@@ -5,23 +5,19 @@ import org.hibernate.Session;
 
 public class Run {
 
-/**
- * @param args
- */
- public static void main(String[] args) {
- Session session = HibernateSessionManager.getSessionFactory().openSession();
+	public static void main(String[] args) {
+		/*Session session = HibernateSessionManager.getSessionFactory().openSession();
 
- session.beginTransaction();
- User user = new User();
+		session.beginTransaction();
+		User user = new User();
 
- user.setUserId(1);
- user.setUsername("James");
- user.setCreatedBy("Application");
- user.setCreatedDate(new Date());
+		user.setUserId(1);
+		user.setUsername("James");
+		user.setCreatedBy("Application");
+		user.setCreatedDate(new Date());
 
- session.save(user);
- session.getTransaction().commit();
-
-}
+		session.save(user);
+		session.getTransaction().commit();*/
+	}
 
 }
