@@ -7,9 +7,11 @@ Java has two particular package handlers:
  - Maven
  - Gradle
 
-install: sudo apt-get install maven
+install:
+- sudo apt-get install maven
 
-version: mvn -version
+version:
+- mvn -version
 
 compile:
 - mvn clean install
