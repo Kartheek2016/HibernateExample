@@ -13,7 +13,8 @@ version: mvn -version
 
 compile:
  - mvn clean install
- - mvnclean package assembly:assembly
+ - mvn clean package assembly:assembly
+ - mvn compile
  
  run jar file:
  - java -jar target/fileName.jar
